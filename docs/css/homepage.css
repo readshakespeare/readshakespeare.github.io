@@ -1,14 +1,101 @@
 body {
-background: rgb(131, 33, 100); 
+background: rgb(238, 241, 235);
+margin: 80px;
+font-size: 18px;
+font-family: "trebuchet M5", sans-serif;
+}
+
+h1 {
+color:rgb(255, 255, 255);
+font-size: 45px;
+font-family: "trebuchet M5", sans-serif;
+font-weight: 400;
+margin-top: 0;
+border: 5px solid white;
+padding: 20px;
+
+text-align: center;
+background-color: rgb(192, 214, 200);
+
+}
+
+h2 {
+color:rgb(204, 161, 158);
+font-weight: lighter;
+font-size: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+img{
+  width: 85%;
+  border: 2px;
+  padding: 5px;
+}
+
+.dates {
+  font-weight: lighter;
+  font-family: Tahoma, sans-serif;
+
+}
+
+p{
+margin: 0;
+margin-bottom: 18px;
+margin-top: 18px;
+border: 3px solid green;
+padding: 20px;
+font-size: 15px;
+
+}
+
+.first{
+  margin-top: 30px;
+background-color: rgb(192, 214, 200) ;
+ border: 5px solid rgb(204, 161, 158);
+ line-height: 1.5;
+}
+
+.second{
+background-color: rgb(192, 214, 200);
+  border: 5px solid rgb(204, 161, 158);
+  line-height: 1.5;
+}
+
+.everything {
+width: 85;
+margin-left: auto;
+margin-right: auto;
+
+max-width: 600px;
+min-width: 400px;
+}
+
+.cover {
+float:left;
+width: 50%;
+margin-top: 30px;
 
 
 
 }
 
+.intro {
+float: right;
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
 
 
 
-h2 {
-color:blue;
+.cover {
+  float:none;
+  width:auto;
+}
 
+.intro {
+  width: auto;
+}
 }
