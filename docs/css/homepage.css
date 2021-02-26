@@ -15,7 +15,7 @@ border: 5px solid white;
 padding: 20px;
 
 text-align: center;
-background-color: rgb(192, 214, 200);
+background-color: rgb(166, 148, 182);
 
 }
 
@@ -25,7 +25,8 @@ font-weight: lighter;
 font-size: 30px;
 margin-top: 10px;
 margin-bottom: 10px;
-
+float: right;
+width: 50%;
 }
 
 img{
@@ -37,6 +38,9 @@ img{
 .dates {
   font-weight: lighter;
   font-family: Tahoma, sans-serif;
+  float:right;
+  width: 50%;
+
 
 }
 
@@ -52,13 +56,13 @@ font-size: 15px;
 
 .first{
   margin-top: 30px;
-background-color: rgb(192, 214, 200) ;
+background-color: rgb(255, 255, 255) ;
  border: 5px solid rgb(204, 161, 158);
  line-height: 1.5;
 }
 
 .second{
-background-color: rgb(192, 214, 200);
+background-color: rgb(255, 255, 255);
   border: 5px solid rgb(204, 161, 158);
   line-height: 1.5;
 }
@@ -81,6 +85,14 @@ margin-top: 30px;
 
 }
 
+.cover2 {
+  float:left;
+  width: 50%;
+  margin-top: 30px;
+
+
+}
+
 .intro {
 float: right;
   width: 50%;
@@ -95,7 +107,19 @@ float: right;
   width:auto;
 }
 
+.cover2 {
+  float: none;
+  width:auto;
+}
 .intro {
   width: auto;
+}
+
+h2 {
+  float: none;
+}
+
+.dates{
+  float:none;
 }
 }
