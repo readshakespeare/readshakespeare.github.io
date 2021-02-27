@@ -5,9 +5,7 @@ body {
   background-color: rgb(197, 226, 212);
 }
 
-nav{
 
-}
 /* this is a simple menuba
 r sample] */
 
@@ -134,8 +132,8 @@ nav ul li ul li:hover {
   color: white;
   text-decoration: none;
 }
-
 }
+
 
 main{
   width:65%;
@@ -159,10 +157,9 @@ section.dramatis_personae {
 
 
 
-}
-section.dramatis {
 
 }
+
 
 .character_listing {
   color: rgb(100, 149, 132);
@@ -179,9 +176,14 @@ section.contents {
 font-family: sans-serif;
 }
 
-div.sceneImage {
 
-}
+
+img.cake {
+ width: 250px;
+float: right;
+
+  }
+
 
 h1.act {
 color: rgb(100, 149, 132);
@@ -223,13 +225,18 @@ font-family: sans-serif;
 margin: 0 0 0 5em;
 margin-bottom: 10px;
 font-style: italic;
+font-size: 20px
+
 }
+
+
 p.play_location {
 font-family: sans-serif;
 color: rgb(78, 74, 89);
 font-size: 20px;
 margin-top: 10px;
 font-weight: bold;
+
 }
 p.prose {
 margin: 0 0 0 50px;
@@ -270,48 +277,30 @@ span.stage_directions_inline {
 font-family: sans-serif;
 }
 
-audio {
 
-
-
-}
-img.messina {
-
-float: right;
-
-}
-@media screen and (min-width: 580px) {
-
-  p.prose {
-  margin: 0 0 0 50px;
-  font-family: sans-serif;
-  margin-left: .5rem;
+h1 a {
+  position: relative;
+  bottom: 55px;
+  top:400px;
   }
 
+  h2 a{
+  position: relative;
+  bottom: 55px;
+  top:400px;
+}
 
-main{
-  width:65%;
-  max-width: 65%;
-  margin: 0 auto;
-  background-color: white;
-  padding: 2rem;
-  margin-top: 2rem;
+.messina {
+
+float: right;
+  border: 2px;
+  padding: 2px;
+  width: 70%;
+  margin-left: 0.5em;
 
 }
 
-
-h1.act {
-color: rgb(100, 149, 132);
-font-family: sans-serif;
-margin: 0 0 0 5em;
-font-size: 40px;
-background-color: rgb(220, 245, 231);
-margin-top: 1em;
-
-}
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 
 
     main{
@@ -332,7 +321,44 @@ background-color: rgb(220, 245, 231);
 margin-top: 1em;
 
 }
+.messina {
+  float:none;
+  display: block;
+  width:100%
+}
+
+.goup a {
+  text-align:center;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(84, 74, 74);
+}
+
+.goup {
+  position: fixed;
+  bottom:-.8rem;
+  right:0;
+  font-size:2rem;
+  background-color: rgb(158, 137, 170);
+  border: none;
+  width: 3rem;
+  color: white;
+  text-align: center;
+}
+
+img.cake {
+ width: 100%;
+float: none;
 
 
+  }
+
+  .character_listing {
+    color: rgb(100, 149, 132);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: rgb(220, 245, 231);
+  }
 
 }

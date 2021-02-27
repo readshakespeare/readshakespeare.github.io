@@ -85,13 +85,7 @@ margin-top: 30px;
 
 }
 
-.cover2 {
-  float:left;
-  width: 50%;
-  margin-top: 30px;
 
-
-}
 
 .intro {
 float: right;
@@ -117,9 +111,22 @@ float: right;
 
 h2 {
   float: none;
+  font-size: 14px;
 }
 
 .dates{
   float:none;
+  font-size: 12px;
 }
+
+p {
+
+  font-size: 12px;
+}
+
+h1 {
+font-size: 16px;
+}
+
+
 }
