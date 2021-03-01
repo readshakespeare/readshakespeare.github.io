@@ -51,7 +51,6 @@ color:white;
 
 nav ul li{
 
-
 }
 
 
@@ -134,7 +133,22 @@ nav ul li ul li:hover {
 }
 }
 
+h1.title {
+color:rgb(255, 255, 255);
+font-size: 45px;
+font-family: "trebuchet M5", sans-serif;
+font-weight: 400;
+margin-top: 2.5rem;
+margin-bottom: 2.5rem;
+margin-left: 4rem;
+margin-right: 4rem;
+border: 5px solid white;
+padding: 20px;
 
+text-align: center;
+background-color: rgb(166, 148, 182);
+
+}
 main{
   width:65%;
   max-width: 900px;
@@ -154,10 +168,28 @@ section.dramatis_personae {
   background-color: white;
   padding: 2rem;
   margin-top: 2rem;
+  
 
 
 
 
+}
+
+h1 {
+    position: relative;
+}
+h2 {
+  position: relative;
+}
+
+h1 a {
+  position: absolute;
+  top: -200px;
+
+}
+h2 a {
+position: absolute;
+top: -200px;
 }
 
 
@@ -278,27 +310,14 @@ font-family: sans-serif;
 }
 
 
-h1 a {
+h1 a h2 a {
   position: relative;
   bottom: 55px;
   top:400px;
   }
 
-  h2 a{
-  position: relative;
-  bottom: 55px;
-  top:400px;
-}
 
-.messina {
 
-float: right;
-  border: 2px;
-  padding: 2px;
-  width: 70%;
-  margin-left: 0.5em;
-
-}
 
 .video-box {
 	position: relative;
@@ -370,6 +389,11 @@ float: none;
 
 
 
+  }
+
+  h1.title{
+
+    font-size: 15px;
   }
 
   .character_listing {
