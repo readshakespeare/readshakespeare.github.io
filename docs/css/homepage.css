@@ -19,6 +19,8 @@ background-color: rgb(166, 148, 182);
 
 }
 
+
+
 h2 {
 color:rgb(204, 161, 158);
 font-weight: lighter;
@@ -48,7 +50,6 @@ p{
 margin: 0;
 margin-bottom: 18px;
 margin-top: 18px;
-border: 3px solid green;
 padding: 20px;
 font-size: 15px;
 
@@ -101,17 +102,13 @@ float: right;
   width:auto;
 }
 
-.cover2 {
-  float: none;
-  width:auto;
-}
 .intro {
   width: auto;
 }
 
 h2 {
   float: none;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .dates{
@@ -126,7 +123,15 @@ p {
 
 h1 {
 font-size: 16px;
+position: center;
+}
+.first{
+
+margin-right: 50px;
 }
 
+.second{
+margin-right: 50px;
+}
 
 }
